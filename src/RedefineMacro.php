@@ -21,7 +21,7 @@ class RedefineMacro extends BlockMacros
 	private $redefinedBlocks = [];
 
 
-	public static function install(Compiler $compiler)
+	public static function install(Compiler $compiler): void
 	{
 		$me = new static($compiler);
 		$me->addMacro('redefine', [$me, 'macroRedefine'], [$me, 'macroRedefineEnd']);
