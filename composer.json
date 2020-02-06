@@ -1,5 +1,5 @@
 {
-	"name": "nextras/latte-macros",
+	"name": "rtsoftplzen/latte-macros",
 	"type": "library",
 	"description": "Macros for Latte from Nette Framework.",
 	"keywords": ["nextras", "nette", "latte", "macros", "redefine"],
